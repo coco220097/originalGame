@@ -1,0 +1,30 @@
+3学期提出「RPG」の改善点：
+
+①移動方向に合わせて、主人公の向き変更
+	player.py	pl_images1 = downkey  (前向き1, 2)
+		pl_images4 = upkey     (後向き1, 2)
+		pl_images3 = rightkey  (右向き1, 2)
+		pl_images2 = leftkey    (左向き1, 2)
+		pl_images5追加    (死んだ時1, 2(作成))
+
+
+②タイトル画面の挿入
+	title.py作成　"image/title.png"の読み込みと配置
+		     プレイヤー画像の表示
+	main.py	    「PRESS ENTER TO PLAY」メッセージの描画	
+	midlefont	　　中文字用のフォントの追加
+
+③小さい文字フォントスタイル変更
+	smallfont main.py　（courier→self）
+
+④３番目の敵、モンスター「IKAKU」追加
+	monsterlist.py　image/enemy3.png使用
+
+⑤ゲージ背景画面を追加
+	main.py　databg.jpg使用
+
+⑥戦闘シーンの敵キャラ表示とRectBoxの位置と色変更
+	battle.py
+
+
+
